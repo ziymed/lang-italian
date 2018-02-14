@@ -19,12 +19,15 @@ core:
       colored_header_label: Header Colorato
       colors_heading: Colori
       colors_text: "Scegli due colori per personalizzare il tema. Il primo verrà utilizzato come colore in evidenzia, mentre il secondo verrà usato come colore per gli elementi di sfondo."
+      custom_footer_heading: Footer Personalizzato
+      custom_footer_text: "Aggiungi codice HTMl da visualizzare in fondo alla pagina."
       custom_header_heading: Header Personalizzato
       custom_header_text: "Aggiungi codice HTML da visualizzare in cima della pagina, sopra l'header di Flarum."
       custom_styles_heading: Stili Personalizzati
       custom_styles_text: Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili di default</a> di Flarum.
       dark_mode_label: Modalità Scura
       edit_css_button: Modifica CSS Personalizzato
+      edit_footer_button: Modifica Footer personalizzato
       edit_header_button: Modifica Header Personalizzato
       enter_hex_message: Inserisci un codice colore esadecimale
       favicon_heading: Favicon
@@ -57,6 +60,12 @@ core:
       customize_text: "Personalizza l'aspetto del tuo forum aggiungendo codice LESS/CSS da applicare sulla parte superiore degli <a>stili di default</a> di Flarum."
       submit_button: => core.ref.save_changes
       title: Modifica CSS Personalizzato
+    
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: "Aggiungi codice HTML da visualizzare in fondo alla pagina."
+      submit_button: => core.ref.save_changes
+      title: Modifica Footer Personalizzato
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -427,13 +436,13 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: Questo sito è ottimizzato per un browser moderno con JavaScript abilitato.
-      load_error_message: Qualcosa è andato storto durante il tentativo di caricare la versione completa di questo sito.
+      load_error_message: Qualcosa è andato storto durante il tentativo di caricare la versione completa di questo sito. Prova a fare un hard-refresh per fixare l'errore
       loading_text: Caricamento...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Pagina precedente
+      previous_page_button: => core.ref.previous_page
     
     error:
       403_message: Non sei autorizzato ad accedere a questa pagina.
@@ -446,6 +455,7 @@ core:
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
+      previous_page_button: => core.ref.previous_page
       
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
@@ -531,6 +541,7 @@ core:
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
     posts: Messaggi                                 # Referenced by flarum-statistics.yml
+    previous_page: Pagina precedente
     rename: Rinomina
     reply: Rispondi                                 # Referenced by flarum-mentions.yml
     reset_your_password: Ripristina la tua password
