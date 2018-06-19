@@ -70,6 +70,8 @@ flarum-tags:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       edit_tags_button: Modifica Etichette
+    header:
+      back_to_tags_tooltip: Torna alla lista delle etichette
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
