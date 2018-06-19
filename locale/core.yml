@@ -133,8 +133,8 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Consenti ridenominazione
       allow_post_editing_label: Consenti modifica post
+      allow_renaming_label: Consenti ridenominazione
       create_heading: Crea
       delete_discussions_forever_label: Eliminare discussioni per sempre
       delete_discussions_label: Eliminare discussioni
@@ -178,8 +178,8 @@ core:
 
     # These translations are used in the Change Email modal dialog.
     change_email:
-      confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
+      confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
       incorrect_password_message: La password che hai inserito è errata.
       submit_button: => core.ref.save_changes
@@ -342,8 +342,8 @@ core:
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rinomina Discussione
       submit_button: => core.ref.rename
+      title: Rinomina Discussione
 
     # These translations are used by the search results dropdown list.
     search:
@@ -366,8 +366,8 @@ core:
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
-      email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
+      email_placeholder: => core.ref.email
       log_in_text: "Hai già un account? <a>Accesso</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
@@ -384,8 +384,8 @@ core:
       in_discussion_text: "In {discussion}"
       joined_date_text: "Si è iscritto {ago}"
       online_text: Online
-      posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
+      posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -408,10 +408,6 @@ core:
     badge:
       hidden_tooltip: Nascosto
 
-    # These translations are used to modify usernames.
-    username:
-      deleted_text: "[cancellato]"
-
     # These translations are displayed as error messages.
     error:
       generic_message: "Oops! Qualcosa è andato storto. Si prega di ricaricare la pagina e riprovare."
@@ -429,6 +425,10 @@ core:
       glue_text: ", "
       three_text: "{first}, {second} e {third}"
       two_text: "{first} e {second}"
+    
+    # These translations are used to modify usernames.
+    username:
+      deleted_text: "[cancellato]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -542,6 +542,7 @@ core:
     password: Password
     posts: Messaggi                                 # Referenced by flarum-statistics.yml
     previous_page: Pagina precedente
+    remove: Rimuovi
     rename: Rinomina
     reply: Rispondi                                 # Referenced by flarum-mentions.yml
     reset_your_password: Ripristina la tua password
