@@ -139,7 +139,8 @@ core:
       delete_discussions_forever_label: Eliminare discussioni per sempre
       delete_discussions_label: Eliminare discussioni
       delete_posts_forever_label: Eliminare post per sempre
-      edit_and_delete_posts_label: Modificare e cancellare post
+      delete_posts_label: Cancellare post
+      edit_posts_label: Modificare post
       global_heading: Globale
       moderate_heading: Moderate
       new_group_button: Nuovo Gruppo
