@@ -151,6 +151,7 @@ core:
       sign_up_label: Registrazione
       start_discussions_label: Inizia Discussioni
       view_discussions_label: Leggi le discussioni
+      view_last_seen_at_label: Consenti di vedere l'ultima visita dell'utente
       view_post_ips_label: Visualizza indirizzi IP del post
       view_user_list_label: Visualizza lista utenti
 
@@ -385,6 +386,7 @@ core:
       in_discussion_text: "In {discussion}"
       joined_date_text: "Si è iscritto {ago}"
       online_text: Online
+      posts_empty_text: Sembra che non ci siano post qui.
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
